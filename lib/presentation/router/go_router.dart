@@ -19,7 +19,7 @@ final goRouterProvider = Provider(
         path: PageId.edit.path,
         name: PageId.edit.routeName,
         builder: (context, state) {
-          final id = state.params['id']!;
+          final id = state.pathParameters['id']!;
           return EditPage(memoId: id);
         },
       ),

@@ -12,7 +12,6 @@ dependencies:
   flutter_hooks: # flutter + hooks
   freezed_annotation:
   go_router:
-  device_preview:
   uuid:
 
 dev_dependencies:

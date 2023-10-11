@@ -45,7 +45,7 @@ class ListPage extends HookConsumerWidget {
             final router = ref.read(goRouterProvider);
             router.pushNamed(
               PageId.edit.routeName,
-              params: {'id': memo.id},
+              pathParameters: {'id': memo.id},
             );
           },
           onPressedDelete: () {
