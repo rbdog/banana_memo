@@ -1,0 +1,47 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "dev",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main.dart",
+      "args": [
+        "--debug",
+        "-d",
+        "chrome",
+        "--dart-define-from-file=scripts/flavors/dev.json"
+      ]
+    },
+    {
+      "name": "stg",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main.dart",
+      "args": [
+        "--debug",
+        "-d",
+        "chrome",
+        "--web-hostname",
+        "localhost",
+        "--web-port=5000",
+        "--dart-define-from-file=scripts/flavors/stg.json"
+      ]
+    },
+    {
+      "name": "prd",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main.dart",
+      "args": [
+        "--release",
+        "-d",
+        "chrome",
+        "--web-hostname",
+        "localhost",
+        "--web-port=5000",
+        "--dart-define-from-file=scripts/flavors/prd.json"
+      ]
+    }
+  ]
+}
