@@ -1,8 +1,8 @@
 import 'package:go_router/go_router.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
-import 'package:banana_memo/presentation/pages/edit.dart';
-import 'package:banana_memo/presentation/pages/list.dart';
-import 'package:banana_memo/presentation/router/page_path.dart';
+import 'package:my_app/presentation/pages/edit.dart';
+import 'package:my_app/presentation/pages/list.dart';
+import 'package:my_app/presentation/router/page_path.dart';
 
 /// Provide GoRouter
 final goRouterProvider = Provider(

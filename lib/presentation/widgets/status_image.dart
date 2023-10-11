@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:banana_memo/domain/types/status.dart';
-import 'package:banana_memo/presentation/theme/images.dart';
+import 'package:my_app/domain/types/status.dart';
+import 'package:my_app/presentation/theme/images.dart';
 
 /// ステータス画像
 class StatusImage extends StatelessWidget {

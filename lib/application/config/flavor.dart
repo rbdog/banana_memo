@@ -1,4 +1,4 @@
-import 'package:banana_memo/application/types/flavor.dart';
+import 'package:my_app/application/types/flavor.dart';
 
 /// フレーバー
 final flavor = _readFlavor();
@@ -13,6 +13,7 @@ Flavor _readFlavor() {
   } else if (flavorString == 'prd') {
     return Flavor.prd;
   } else {
-    throw Exception('Flavorが不明です');
+    // 指定がないときは dev を使う
+    return Flavor.dev;
   }
 }

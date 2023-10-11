@@ -1,6 +1,6 @@
-import 'package:banana_memo/domain/types/memo.dart';
-import 'package:banana_memo/domain/types/status.dart';
-import 'package:banana_memo/domain/types/memo_config.dart';
+import 'package:my_app/domain/types/memo.dart';
+import 'package:my_app/domain/types/status.dart';
+import 'package:my_app/domain/types/memo_config.dart';
 
 /// メモに関する設定値
 final memoConfig = MemoConfig(

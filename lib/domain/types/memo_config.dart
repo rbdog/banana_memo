@@ -1,4 +1,4 @@
-import 'package:banana_memo/domain/types/memo.dart';
+import 'package:my_app/domain/types/memo.dart';
 
 /// メモに関する設定値
 class MemoConfig {

@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
-import 'package:banana_memo/application/di/usecases.dart';
-import 'package:banana_memo/application/di/infrastructure.dart';
-import 'package:banana_memo/application/state/memo_list_provider.dart';
-import 'package:banana_memo/presentation/router/page_path.dart';
-import 'package:banana_memo/presentation/router/go_router.dart';
-import 'package:banana_memo/presentation/widgets/add_button.dart';
-import 'package:banana_memo/presentation/widgets/memo_card.dart';
-import 'package:banana_memo/presentation/theme/sizes.dart';
+import 'package:my_app/application/di/usecases.dart';
+import 'package:my_app/application/di/infrastructure.dart';
+import 'package:my_app/application/state/memo_list_provider.dart';
+import 'package:my_app/presentation/router/page_path.dart';
+import 'package:my_app/presentation/router/go_router.dart';
+import 'package:my_app/presentation/widgets/add_button.dart';
+import 'package:my_app/presentation/widgets/memo_card.dart';
+import 'package:my_app/presentation/theme/sizes.dart';
 
 /// 一覧画面
 class ListPage extends HookConsumerWidget {

@@ -1,5 +1,5 @@
-import 'package:banana_memo/domain/types/memo.dart';
-import 'package:banana_memo/domain/types/status.dart';
+import 'package:my_app/domain/types/memo.dart';
+import 'package:my_app/domain/types/status.dart';
 
 /// メモの更新ルールを担当するクラス
 class MemoUpdater {

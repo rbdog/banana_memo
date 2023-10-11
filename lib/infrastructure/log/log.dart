@@ -1,4 +1,4 @@
-import 'package:banana_memo/infrastructure/log/log_level.dart';
+import 'package:my_app/infrastructure/log/log_level.dart';
 
 /// Log
 class Log {

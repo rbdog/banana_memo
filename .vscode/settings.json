@@ -1,29 +1,23 @@
 {
   // --- 以下 個別のPCで設定 ---
-
   // デバイスのID, Xcodeで確認したものを設定
   // "ios.simulator": "XXXX-IOS-SIMULATOR-ID-XXXX"
   // "ios.device": "XXXX-IOS-DEVICE-ID-XXXX"
   // "android.emulator": "XXXX-ANDROID-EMULATOR-ID-XXXX"
   // "android.device": "XXXX-ANDROID-DEVICE-ID-XXXX"
-
   "editor.formatOnSave": true,
-
-  "dart.flutterSdkPath": "$ENV/flutter",
   "dart.debugExternalPackageLibraries": false,
   "dart.debugSdkLibraries": false,
   "[dart]": {
     "editor.rulers": [0],
     "editor.defaultFormatter": "Dart-Code.dart-code"
   },
-
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-
   "files.exclude": {
     "**/.dart_tool": true,
     "**/.metadata": true,
@@ -42,11 +36,11 @@
     "**/pubspec.lock": true,
     "**/**.freezed.dart": false,
     "**/**.g.dart": false,
-    "**/LICENSE": false,
-    "**/.gitignore": false,
+    "**/LICENSE": true,
+    "**/.gitignore": true,
     "**/.firebase": true,
     "**/.github": true,
-    "**/.firebaserc": true,
-    "**/firebase.json": true
+    "**/.firebaserc": false,
+    "**/firebase.json": false
   }
 }

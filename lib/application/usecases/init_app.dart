@@ -1,7 +1,7 @@
-import 'package:banana_memo/application/config/memo.dart';
-import 'package:banana_memo/application/state/memo_list_notifier.dart';
-import 'package:banana_memo/application/interfaces/logger.dart';
-import 'package:banana_memo/application/interfaces/firebase.dart';
+import 'package:my_app/application/config/memo.dart';
+import 'package:my_app/application/state/memo_list_notifier.dart';
+import 'package:my_app/application/interfaces/logger.dart';
+import 'package:my_app/application/interfaces/firebase.dart';
 
 /// アプリの初期準備をする
 class InitAppUsecase {

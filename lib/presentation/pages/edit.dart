@@ -1,18 +1,18 @@
 import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
-import 'package:banana_memo/application/di/usecases.dart';
-import 'package:banana_memo/application/di/infrastructure.dart';
-import 'package:banana_memo/application/state/editting_memo_provider.dart';
-import 'package:banana_memo/presentation/theme/colors.dart';
-import 'package:banana_memo/presentation/theme/l10n.dart';
-import 'package:banana_memo/presentation/theme/sizes.dart';
-import 'package:banana_memo/presentation/widgets/gap.dart';
-import 'package:banana_memo/presentation/widgets/save_button.dart';
-import 'package:banana_memo/presentation/widgets/status_button.dart';
-import 'package:banana_memo/presentation/widgets/text_edit_form.dart';
-import 'package:banana_memo/presentation/widgets/status_text.dart';
-import 'package:banana_memo/presentation/dialogs/warn.dart';
-import 'package:banana_memo/presentation/router/go_router.dart';
+import 'package:my_app/application/di/usecases.dart';
+import 'package:my_app/application/di/infrastructure.dart';
+import 'package:my_app/application/state/editting_memo_provider.dart';
+import 'package:my_app/presentation/theme/colors.dart';
+import 'package:my_app/presentation/theme/l10n.dart';
+import 'package:my_app/presentation/theme/sizes.dart';
+import 'package:my_app/presentation/widgets/gap.dart';
+import 'package:my_app/presentation/widgets/save_button.dart';
+import 'package:my_app/presentation/widgets/status_button.dart';
+import 'package:my_app/presentation/widgets/text_edit_form.dart';
+import 'package:my_app/presentation/widgets/status_text.dart';
+import 'package:my_app/presentation/dialogs/warn.dart';
+import 'package:my_app/presentation/router/go_router.dart';
 
 /// 編集画面
 class EditPage extends ConsumerWidget {

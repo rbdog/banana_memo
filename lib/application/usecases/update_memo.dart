@@ -1,10 +1,10 @@
-import 'package:banana_memo/domain/features/memo_updater.dart';
-import 'package:banana_memo/domain/features/memo_validater.dart';
-import 'package:banana_memo/application/config/memo.dart';
-import 'package:banana_memo/application/state/editting_memo_notifier.dart';
-import 'package:banana_memo/application/state/memo_list_notifier.dart';
-import 'package:banana_memo/application/interfaces/firebase.dart';
-import 'package:banana_memo/application/interfaces/logger.dart';
+import 'package:my_app/domain/features/memo_updater.dart';
+import 'package:my_app/domain/features/memo_validater.dart';
+import 'package:my_app/application/config/memo.dart';
+import 'package:my_app/application/state/editting_memo_notifier.dart';
+import 'package:my_app/application/state/memo_list_notifier.dart';
+import 'package:my_app/application/interfaces/firebase.dart';
+import 'package:my_app/application/interfaces/logger.dart';
 
 /// メモを変更する
 class UpdateMemoUsecase {

@@ -1,4 +1,4 @@
-import 'package:banana_memo/domain/types/status.dart';
+import 'package:my_app/domain/types/status.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 part 'memo.freezed.dart';
 

@@ -1,4 +1,4 @@
-import 'package:banana_memo/domain/types/memo.dart';
+import 'package:my_app/domain/types/memo.dart';
 
 /// メモが正しいかチェックするクラス
 class MemoValidater {

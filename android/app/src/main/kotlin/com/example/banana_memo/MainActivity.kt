@@ -1,4 +1,4 @@
-package com.example.banana_memo
+package com.example.my_app
 
 import io.flutter.embedding.android.FlutterActivity
 

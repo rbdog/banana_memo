@@ -1,11 +1,11 @@
 import 'package:hooks_riverpod/hooks_riverpod.dart';
-import 'package:banana_memo/application/state/memo_list_provider.dart';
-import 'package:banana_memo/application/state/editting_memo_provider.dart';
-import 'package:banana_memo/application/usecases/add_memo.dart';
-import 'package:banana_memo/application/usecases/delete_memo.dart';
-import 'package:banana_memo/application/usecases/init_app.dart';
-import 'package:banana_memo/application/usecases/update_memo.dart';
-import 'package:banana_memo/application/di/infrastructure.dart';
+import 'package:my_app/application/state/memo_list_provider.dart';
+import 'package:my_app/application/state/editting_memo_provider.dart';
+import 'package:my_app/application/usecases/add_memo.dart';
+import 'package:my_app/application/usecases/delete_memo.dart';
+import 'package:my_app/application/usecases/init_app.dart';
+import 'package:my_app/application/usecases/update_memo.dart';
+import 'package:my_app/application/di/infrastructure.dart';
 
 /// Init App
 final initAppProvider = Provider<InitAppUsecase>(

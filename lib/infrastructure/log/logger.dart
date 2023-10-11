@@ -1,7 +1,7 @@
 import 'package:flutter/foundation.dart';
-import 'package:banana_memo/application/interfaces/logger.dart';
-import 'package:banana_memo/infrastructure/log/log.dart';
-import 'package:banana_memo/infrastructure/log/log_level.dart';
+import 'package:my_app/application/interfaces/logger.dart';
+import 'package:my_app/infrastructure/log/log.dart';
+import 'package:my_app/infrastructure/log/log_level.dart';
 
 /// 一定数のログを管理できる設定変更可能なロガー
 class DefaultLogger implements Logger {

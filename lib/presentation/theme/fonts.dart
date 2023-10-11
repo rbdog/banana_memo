@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:banana_memo/presentation/theme/sizes.dart';
+import 'package:my_app/presentation/theme/sizes.dart';
 
 /// フォント
 class BrandFont {

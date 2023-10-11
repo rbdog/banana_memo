@@ -1,5 +1,5 @@
 import 'package:hooks_riverpod/hooks_riverpod.dart';
-import 'package:banana_memo/domain/types/memo.dart';
+import 'package:my_app/domain/types/memo.dart';
 
 /// 編集中メモを管理するノティファイヤ
 class EdittingMemoNotifier extends StateNotifier<Memo> {

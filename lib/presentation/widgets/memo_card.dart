@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:banana_memo/domain/types/memo.dart';
-import 'package:banana_memo/presentation/theme/colors.dart';
-import 'package:banana_memo/presentation/theme/fonts.dart';
-import 'package:banana_memo/presentation/theme/sizes.dart';
-import 'package:banana_memo/presentation/widgets/delete_button.dart';
-import 'package:banana_memo/presentation/widgets/status_image.dart';
+import 'package:my_app/domain/types/memo.dart';
+import 'package:my_app/presentation/theme/colors.dart';
+import 'package:my_app/presentation/theme/fonts.dart';
+import 'package:my_app/presentation/theme/sizes.dart';
+import 'package:my_app/presentation/widgets/delete_button.dart';
+import 'package:my_app/presentation/widgets/status_image.dart';
 
 /// メモカード
 class MemoCard extends StatelessWidget {

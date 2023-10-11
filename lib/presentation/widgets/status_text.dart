@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:banana_memo/domain/types/status.dart';
-import 'package:banana_memo/presentation/theme/fonts.dart';
-import 'package:banana_memo/presentation/theme/l10n.dart';
+import 'package:my_app/domain/types/status.dart';
+import 'package:my_app/presentation/theme/fonts.dart';
+import 'package:my_app/presentation/theme/l10n.dart';
 
 /// ステータス文字
 class StatusText extends StatelessWidget {

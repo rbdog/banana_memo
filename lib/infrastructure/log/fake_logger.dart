@@ -1,7 +1,7 @@
 import 'package:flutter/foundation.dart';
-import 'package:banana_memo/application/interfaces/logger.dart';
-import 'package:banana_memo/infrastructure/log/log.dart';
-import 'package:banana_memo/infrastructure/log/log_level.dart';
+import 'package:my_app/application/interfaces/logger.dart';
+import 'package:my_app/infrastructure/log/log.dart';
+import 'package:my_app/infrastructure/log/log_level.dart';
 
 /// 保存機能を持たず出力するだけのシンプルなロガー
 class FakeLogger implements Logger {

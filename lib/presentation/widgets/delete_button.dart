@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:banana_memo/presentation/theme/colors.dart';
-import 'package:banana_memo/presentation/theme/fonts.dart';
-import 'package:banana_memo/presentation/theme/l10n.dart';
+import 'package:my_app/presentation/theme/colors.dart';
+import 'package:my_app/presentation/theme/fonts.dart';
+import 'package:my_app/presentation/theme/l10n.dart';
 
 /// 削除ボタン
 class DeleteButton extends StatelessWidget {
