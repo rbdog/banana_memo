@@ -19,22 +19,11 @@ class StatusText extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    switch (status) {
-      case Status.todo:
-        return Text(
-          L10n.statusTodo,
-          style: style,
-        );
-      case Status.doing:
-        return Text(
-          L10n.statusDoing,
-          style: style,
-        );
-      case Status.done:
-        return Text(
-          L10n.statusDone,
-          style: style,
-        );
-    }
+    final text = switch (status) {
+      Status.todo => L10n.statusTodo,
+      Status.doing => L10n.statusDoing,
+      Status.done => L10n.statusDone,
+    };
+    return Text(text, style: style);
   }
 }

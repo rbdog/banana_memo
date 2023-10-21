@@ -1,3 +1,13 @@
+# お知らせ
+
+以下にフォルダ構成以外もすべて含めたテンプレートアプリを作成中です。説明動画は未作成ですが、より実用的になっていますのでオススメです。
+
+[https://github.com/rubydog-jp/templates](https://github.com/rubydog-jp/templates)
+
+<br />
+<br />
+<br />
+
 ![header](https://github.com/rbdog/flutter_note_folders/blob/main/assets/images/onion-archit.png?raw=true)
 
 # フォルダ構成の例
@@ -5,17 +15,10 @@
 ### 注意
 
 > **Warning**  
-> 動画で紹介した分のフォルダ構成です
-> このままテンプレートとして使っても構いませんが、あくまでフォルダ構成の例としてご覧ください
+> ここには動画で紹介した分だけのフォルダ構成が置いてあります。
 
-- お試し実行 (macOS)
-
-```sh
-. scripts/run_dev.sh
-```
-
-- お試し実行 (Windows)
+- お試し実行
 
 ```
-flutter run --debug -d chrome --dart-define-from-file=scripts/flavors/dev.json
+flutter run --debug -d chrome
 ```

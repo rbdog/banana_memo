@@ -14,19 +14,12 @@ class StatusImage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    switch (status) {
-      case Status.todo:
-        return Image.asset(
-          BrandImage.statusTodo.path,
-        );
-      case Status.doing:
-        return Image.asset(
-          BrandImage.statusDoing.path,
-        );
-      case Status.done:
-        return Image.asset(
-          BrandImage.statusDone.path,
-        );
-    }
+    return Image.asset(
+      switch (status) {
+        Status.todo => BrandImage.statusTodo.path,
+        Status.doing => BrandImage.statusDoing.path,
+        Status.done => BrandImage.statusDone.path,
+      },
+    );
   }
 }

@@ -7,32 +7,21 @@ import 'package:my_app/application/types/flavor.dart';
 import 'package:my_app/infrastructure/firebase/fake_firebase.dart';
 import 'package:my_app/infrastructure/firebase/firebase.dart';
 import 'package:my_app/infrastructure/log/fake_logger.dart';
-import 'package:my_app/infrastructure/log/logger.dart';
 
 /// Firebase
-final firebaseProvider = Provider<FirebaseService>(
-  (ref) {
-    switch (flavor) {
-      case Flavor.dev:
-        return FakeFirebaseService();
-      case Flavor.stg:
-        return FakeFirebaseService();
-      case Flavor.prd:
-        return DefaultFirebaseService();
-    }
-  },
-);
+final firebaseProvider = Provider<FirebaseService>((ref) {
+  return switch (flavor) {
+    Flavor.dev => FakeFirebaseService(),
+    Flavor.stg => FakeFirebaseService(),
+    Flavor.prd => DefaultFirebaseService(),
+  };
+});
 
 /// Logger
-final loggerProvider = Provider<Logger>(
-  (ref) {
-    switch (flavor) {
-      case Flavor.dev:
-        return FakeLogger();
-      case Flavor.stg:
-        return FakeLogger();
-      case Flavor.prd:
-        return DefaultLogger();
-    }
-  },
-);
+final loggerProvider = Provider<Logger>((ref) {
+  return switch (flavor) {
+    Flavor.dev => FakeLogger(),
+    Flavor.stg => FakeLogger(),
+    Flavor.prd => FakeLogger(),
+  };
+});
