@@ -2,7 +2,7 @@
 
 フォルダ構成以外も合わせた実用的で新しいテンプレートアプリを作成中です。
 
-[新しいテンプレートはこちら](https://github.com/rbdog/templates/tree/main/flutter_android_ios)
+[新しいテンプレートはこちら](https://github.com/rbdog/templates/tree/main/flutter_mobile_app)
 
 <br />
 
